@@ -1,0 +1,389 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+#welchead {
+	display: block;
+}
+#welcmain {
+	display: block;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 10%;
+}
+
+header img {
+	display: block;
+	width: 200px;
+	margin: 3% auto 0 auto;
+	align-self: center;
+} 
+em {
+	color: red;
+}
+
+main p {
+	text-align: center;
+	font-size: 32px;
+}
+main{
+	height: 500px;
+
+}
+
+
+#clickme {
+	display: inline;
+	margin-left: 5%;
+}
+
+#imhere {
+	display: none;
+	float: right;
+	font-size: 38px;
+}
+
+main button {
+	font-size: 50px;
+}
+
+#l1back {
+	float: right;
+	
+}
+#l1head {
+	display: none;
+}
+
+#l1main {
+	display: none;
+}
+
+#backcoment {
+	position: absolute;
+	margin: -60px 0 0 850px;
+	font-size: 20px;
+	z-index: -1;
+}
+
+#infor {
+	font-size: 24px;
+	display: none;
+	justify-content: space-around;
+	border: 0px;
+	color: #000;
+}
+
+#fire4 {
+	display: inline-block;
+}
+#fire5 {
+	display: none;
+}
+#fire6 {
+	display: none;
+}
+#fire7 {
+	display: none;
+}
+#fire8 {
+	display: none;
+}
+#fire9 {
+	display: none;
+}
+#fire10 {
+	display: none;
+}
+p {
+	border: dashed 2px #000;
+	color:#00B703;
+	padding: 5px;
+}
+
+#l2pass {
+	display: block;
+	margin: 0 auto;
+}
+#container {
+	display: flex;
+	justify-content: space-between;
+}
+#yd1 {display: none;}
+#yd2 {display: none;}
+#yd3 {display: none;}
+#yd4 {display: none;}
+#yd5 {display: none;}
+#yd6 {display: none;}
+#md1 {display: none;}
+#md2 {display: none;}
+#md3 {display: none;}
+#md4 {display: none;}
+#md5 {display: none;}
+#md6 {display: none;}
+
+#dice1 {
+	display: inline;
+	width: 350px;
+	padding: 0px;
+	margin: -200px -130px;
+}
+
+#dice2 {
+	display: inline;
+	width: 350px;
+	padding: 0px;
+	margin: -200px -130px;
+}
+#result2 {
+	margin-top: 100px;
+	font-size: 28px;
+	
+}
+
+#l2head {
+	display: none;
+}
+#l2main {
+	display: none;
+}
+
+#l2win {
+	font-size: 28px;
+	margin: 100px auto;
+	display: none;
+}
+
+#l2cont {font-size: 28px;}
+
+#l3main {
+	display: none;
+}
+
+#l3head {
+	display: none;
+}
+#l3main img{
+	display: block;
+	margin: 0 auto;
+}
+#l3pass {
+	display: block;
+	margin: 0 auto;
+}
+#l4pass {
+	display: block;
+	margin: 0 auto;
+}
+
+#l4head {
+	display:none;
+	
+}
+#l4main {
+	display: none;
+}
+
+#l4head img{
+	display:inline;
+	align-self: center;
+
+}
+#fire button {
+	height: 30px;
+}
+
+#food2 {
+	height: 400px;
+	width: auto;
+	margin-left: -10px;
+}
+#food1 {
+	height: 400px;
+	width: auto;
+	margin-left: 275px;
+}
+
+#l5pass {
+	display: block;
+	margin: 0 auto;
+}
+
+#containerrps {
+	display: flex;
+	justify-content: space-between;
+}
+#containerrps img {
+	width: 150px;
+}
+#psci {display: none;}
+#proc {display: none;}
+#ppap {display: none;}
+#sci {display: none;}
+#roc {display: none;}
+#pap {display: none;}
+
+#result5 {
+	margin-top: 100px;
+	font-size: 28px;
+	
+}
+#l5win {
+	font-size: 28px;
+	margin: 100px auto;
+	display: none;
+}
+#l5cont {font-size: 28px;}
+
+#l5head {
+	display:none;
+	
+}
+#l5main {
+	display: none;
+}
+
+#l6pass {
+	position: absolute;
+	margin: 100px 0 0 420px;
+	z-index: -1;
+}
+#corona {
+	display: flex;
+	
+}
+#corona {
+	display: flex; 
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#corona img{
+	width: 250px;
+	margin: 15px;
+}
+#l6head {
+	display:none;
+	
+}
+#l6main {
+	display: none;
+}
+
+#ice {
+	width: 800px;
+	display: block;
+	margin: 0 auto;
+}
+#l7pass {
+	display: block;
+	margin: 2% auto;
+}
+#l7passsco {
+	display: block;
+	margin: 2% auto;
+}
+
+#l7passdie {display: block;
+	margin: 2% auto;
+}
+
+#alter {
+	display: flex;
+}
+
+#melt{
+	position: relative;
+}
+#charma {
+	display: none;
+	position: absolute;
+	top: 100px;
+	width: 500px;
+}
+
+#l7head {
+	display:none;
+	
+}
+#l7main {
+	display: none;
+}
+
+#l8pass {
+	display: block;
+	margin: 0 auto;
+}
+
+main img {
+	display: block;
+	margin: 0 auto;
+}
+
+#l8head {
+	display:none;
+	
+}
+#l8main {
+	display: none;
+}
+
+#l9pass {
+	display: block;
+	margin: 0 auto;
+}
+#heart {
+	display: none;
+}
+
+#l9head {
+	display:none;
+	
+}
+#l9main {
+	display: none;
+}
+
+#inputgrade {
+	display: block;
+	margin: 0 auto;
+}
+
+
+#l10head {
+	display:none;
+	
+}
+#l10main {
+	display: none;
+}
+
+#l11pass {
+	display: block;
+	margin: 0 auto;
+}
+
+#board {
+	width: 80%;
+	margin: 10% auto;
+	font-size: 32px;
+}
+
+#l11head {
+	display:none;
+	
+}
+#l11main {
+	display: none;
+}
+
+#kiss {
+	display: none;
+}
+
+#gameover{
+	display: none;
+}
+
+

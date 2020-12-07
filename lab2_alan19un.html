@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="lab2css.css">
+	<script src="lab2_alan19un.js"></script>
+	<title>To Pass</title>
+</head>
+	
+<body>
+<audio id="aud" loop>
+  <source src="Celtic Medieval Music - Kingdom of Bards.mp3" type="audio/mp3" />
+</audio>
+	<header>
+		<div id="welchead">
+			<h1>Welcome to the game <em>To Pass</em> you need a sense of humor and some luck.</h1>
+			<img src="wizard-1417195.png" alt="">
+		</div>
+	  <div id="l1head">
+  			<h1>Hello <em id="playername"></em></h1>
+			<img src="name.jpg" alt="">
+		</div>
+		<div id="l2head" >
+			<h1>Roll High or die</h1>
+			<img src="pirate-2123313.png" alt="">
+		</div>
+		<div id="l3head" >
+			<h1>Pokemon</h1>
+			<img src="pokemon-feat-image.jpg" alt="">
+		</div>
+		<div id="l4head" >
+			<h1>Hungry?</h1>
+			<img src="food2.png" alt="" id="food1">
+			<img src="food1.jpg" alt="" id="food2">
+		</div>
+		<div id="l5head" >
+			<h1>Rock✊ Paper✋ Scissors✌</h1>
+			<img src="giphy.gif" alt="Joey" >
+		</div>
+		<div id="l6head" >
+			<h1>Kill All Covid19</h1>
+			<button id="l6pass" onClick="l6next()">Pass</button>
+			<img src="220px-SARS-CoV-2_without_background.png" alt="covid" id="covid1" onClick="covid1()">
+		</div>
+		<div id="l7head" >
+			<h1>Melt the Ice</h1>
+			<img src="giphy_GameofThrones_NightKing.gif" alt="">
+		</div>
+		<div id="l8head" >
+			<h1>Which level is this?</h1>
+			<img src="76311-66899.gif" alt="">
+		</div>
+		<div id="l9head" >
+			<h1>Kiss the screen</h1>
+			<img src="Kiss_Emoji_Icon_2_large.png" alt="">
+		</div>
+		<div id="l10head" >
+			<h1>The Big Boss</h1>
+			<img src="mafia-boss-big-clan-63302883.jpg" alt="">
+		</div>
+		<div id="l11head" >
+			<h1 id="congame">Congrats!!! </h1>
+			<img src="ResponsibleAgileGecko-small.gif" alt="" id="gameover">
+			<img src="200 (1).gif" alt="" id="winner">
+		</div>
+	<hr>
+</header>
+	<p id="infor"><span>Level ➡️ : <strong id="level">1</strong></span> <span>Score ⭐ : <strong id="score">0</strong></span> <span >Lives 💗 : <strong id="live">5</strong></span>  <span>Tools <button onClick="fire4()" id="fire4">🔥</button> <button onClick="fire5()" id="fire5">🔥</button> <button onClick="fire6()" id="fire6">🔥</button> <button onClick="fire7()" id="fire7">🔥</button> <button onClick="fire8()" id="fire8">🔥</button> <button onClick="fire9()" id="fire9">🔥</button> <button onClick="fire10()" id="fire10">🔥</button>
+    : <strong id="firesco">0</strong></span></p>
+	<hr>
+<main>
+	<div id="welcmain">
+		<p>Click the <strong>Right</strong> button to start</p>
+		<button id="clickme" onClick="imhere()">Click me</button>
+		<button id="imhere" onClick="start()">I'm The Right button</button>
+	</div>
+  	<div id="l1main">
+		<p>You already passed it by entering your name. If you want to change your name press cancel</p>
+		<button id="l1pass" onClick="l1next()">Pass</button>
+		<p id="backcoment">It is back <br> not cancel</p>
+		<button id="l1back" onClick="back()">Back</button>
+	</div>
+	<div id="l2main">
+		<p>Just lucky people can <em>Pass</em>. You lose 10 scores and one live every time you roll low. You get 100 scores when you <em>Pass</em></p>
+		<button id="l2pass" onClick="l2next()">Roll</button>
+		<div id="container">
+			<div id="yours">
+				<h2>Player's Dice</h2>
+				<img src="dice.gif" alt="" id="dice1">
+				<img src="d1.png" alt="" id="yd1">
+				<img src="d2.png" alt="" id="yd2">
+				<img src="d3.png" alt="" id="yd3">
+				<img src="d4.png" alt="" id="yd4">
+				<img src="d5.png" alt="" id="yd5">
+				<img src="d6.png" alt="" id="yd6">
+			</div>
+			<div id="result2"><strong></strong></div>
+			<div id="l2win"> <strong>Arrrrrrgh You <button id="l2cont" onClick="pass2()">Pass</button> </strong></div>
+		  <div id="oppo">
+				<h2>Pirate's Dice</h2>
+				<img src="dice.gif" alt="" id="dice2">
+				<img src="d1.png" alt="" id="md1">
+				<img src="d2.png" alt="" id="md2">
+				<img src="d3.png" alt="" id="md3">
+				<img src="d4.png" alt="" id="md4">
+				<img src="d5.png" alt="" id="md5">
+				<img src="d6.png" alt="" id="md6">
+			</div>
+		</div>
+	</div>
+	<div id="l3main">
+		<p>Guess who is this Pokemon</p>
+		<button id="l3pass" onClick="l3next()">Guess</button><br>
+		<img src="char.png" alt="">
+	</div>	
+	<div id="l4main">
+		<p><em>To Pass</em> you need to answer some questions about food. You get 20 scores for each question. You need 60 scores to pass this level. You lose a live if you get 0 score. Otherwise you play again.</p>
+		<button id="l4pass" onClick="l4next()">Bon Appétit</button><br>
+	</div>	
+	<div id="l5main">
+		<p><em>To Pass</em> you know the rule, beat Joey.</p>
+		<button id="l5pass" onClick="l5next()">✊ ✋ ✌</button><br>
+				<div id="containerrps">
+			<div id="yoursrps">
+				<h2>Player's Hand</h2>
+				<img src="sci.png" alt="" id="psci">
+				<img src="roc.png" alt="" id="proc">
+				<img src="pap.png" alt="" id="ppap">
+			</div>
+			<div id="result5"><strong></strong></div>
+			<div id="l5win"> <strong>Vafanapoli, you <button id="l5cont" onClick="pass5()">Pass</button> </strong></div>
+		  <div id="joey">
+				<h2>Joey's Hand</h2>
+				<img src="sci.png" alt="" id="sci">
+				<img src="roc.png" alt="" id="roc">
+				<img src="pap.png" alt="" id="pap">
+			</div>
+		</div>
+	</div>	
+	<div id="l6main">
+		<p>Find the <em>Pass</em> button behind Corona virus</p>
+		<div id="corona">
+		<img src="220px-SARS-CoV-2_without_background.png" alt="" id="covid2" onClick="covid2()">
+		<img src="220px-SARS-CoV-2_without_background.png" alt="" id="covid3" onClick="covid3()">
+		<img src="220px-SARS-CoV-2_without_background.png" alt="" id="covid4" onClick="covid4()">
+		<img src="220px-SARS-CoV-2_without_background.png" alt="" id="covid5" onClick="covid5()">
+		<img src="220px-SARS-CoV-2_without_background.png" alt="" id="covid6" onClick="covid6()">
+		<img src="220px-SARS-CoV-2_without_background.png" alt="" id="covid7" onClick="covid7()">
+		</div>	
+	</div>	
+	<div id="l7main">
+		<p>Use Charmander power to melt the ice and <em>Pass</em>. If you have used that power before, you lose two lives to <em>Pass</em>, or 500 scores and you get no scores this level.</p>
+		<div id="alter">
+			<button id="l7pass" onClick="l7next()">🖤🖤</button>
+			<button id="l7passsco" onClick="l7nextsco()">🌟🌟</button>
+			<button id="l7passdie" onClick="l7nextdie()">DIE!!</button>
+		</div>
+		<div id="melt">
+			<img src="f5ffcd9560860529b4b63bd224f3c792.jpg" alt="" id="ice" >
+			<img src="5175d198461ae1c3721a5877a29df216ee475f8f_hq.gif" alt="" id="charma">
+
+		</div>	
+	</div>	
+	<div id="l8main">
+		<p>You need a good memory <em>To Pass</em> this level. Try to remember.</p>
+		<button id="l8pass" onClick="l8next()">???</button>
+	  	<img src="62dfed9c4df6bbcbd5e4cb6cc35cbdb6.jpg" alt="" >
+  	</div>
+	<div id="l9main">
+		<p>Kiss the screen <em>To Pass</em>. You do <strong>not</strong> have to touch it because of corona virus</p>
+		<button id="l9pass" onClick="l9next()">Click before KISS 💗</button>
+		<p id="kiss">💗 KEEP KISSING 💗</p>
+		<img src="tenor.gif" alt="" id="heart">
+  	</div>
+	<div id="l10main">
+		<p>No you will not face the big boss because you are the big boss. <br><em>To Pass</em> how much grade do I deserve </p>
+		<input type="text" id="inputgrade" onChange="grademe()">
+	</div>
+	<div id="l11main">
+		<p><em id="away">You have Passed,</em><strong id="end"> Congrates!!!! </strong></p>
+		<button id="l11pass" onClick="reset()">Play again</button>
+		<ol id="board"></ol>
+	</div>
+</main>
+
+</body>
+</html>
